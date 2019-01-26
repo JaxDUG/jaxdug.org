@@ -1,0 +1,5 @@
+body {
+  font-family: 'Nunito', 'Helvetica', 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', sans-serif;
+  font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+  font-size: 18px;
+}
