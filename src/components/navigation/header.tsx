@@ -74,14 +74,14 @@ export default class Header extends React.Component<HeaderProps, HeaderState> {
                 <hr className="bg-secondary d-lg-none" />
                 <ul className="navbar-nav ml-auto">
                   <li className="nav-item">
-                    <Link className="nav-link" to="/#" title="JaxDUG on Twitter">
+                    <a className="nav-link" href="https://twitter.com/thejaxdug" target="_blank" title="JaxDUG on Twitter">
                       <FaTwitter /> <span className="d-lg-none">Twitter</span>
-                    </Link>
+                    </a>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/#" title="JaxDUG on LinkedIn">
+                    <a className="nav-link" href="https://www.linkedin.com/groups/4087355" target="_blank" title="JaxDUG on LinkedIn">
                       <FaLinkedin /> <span className="d-lg-none">LinkedIn</span>
-                    </Link>
+                    </a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="https://www.github.com/jaxdug" target="_blank" title="JaxDUG on GitHub">
