@@ -1,7 +1,7 @@
 import * as React from 'react'
 import Img from 'gatsby-image'
 import { Link, graphql, StaticQuery } from 'gatsby'
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
 
 interface HeaderProps {
   title: string
@@ -54,7 +54,7 @@ export default class Header extends React.Component<HeaderProps, HeaderState> {
               </button>
               <div className={'navbar-collapse ' + (this.state.isOpen ? '' : 'collapse')}>
                 <hr className="bg-secondary d-lg-none" />
-                <ul className="navbar-nav">
+                <ul className="navbar-nav ">
                   <li className="nav-item">
                     <a href="https://www.meetup.com/jaxdug/events" title="JaxDUG Events" target="_blank" className="nav-link">
                       Events
@@ -72,7 +72,17 @@ export default class Header extends React.Component<HeaderProps, HeaderState> {
                   </li>
                 </ul>
                 <hr className="bg-secondary d-lg-none" />
-                <ul className="navbar-nav ml-auto">
+                <ul className="navbar-nav ml-auto pb-4 pb-md-0">
+                  <li className="nav-item">
+                    <a
+                      className="nav-link"
+                      href="https://www.youtube.com/channel/UCz_PXA5B_CZvxSAEUhA1eGw"
+                      target="_blank"
+                      title="JaxDUG on YouTube"
+                    >
+                      <FaYoutube /> <span className="d-lg-none">YouTube</span>
+                    </a>
+                  </li>
                   <li className="nav-item">
                     <a className="nav-link" href="https://twitter.com/thejaxdug" target="_blank" title="JaxDUG on Twitter">
                       <FaTwitter /> <span className="d-lg-none">Twitter</span>
