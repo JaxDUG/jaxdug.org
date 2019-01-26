@@ -4,6 +4,8 @@
 
 > Netlify published at https://youthful-bardeen-6f73f4.netlify.com/
 
+> Azure published at https://jacksonvilledevelopers.z13.web.core.windows.net/
+
 ## Features
 
 - TypeScript
