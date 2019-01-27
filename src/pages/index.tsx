@@ -44,7 +44,7 @@ const IndexPage = (props: any) => (
         }
       }
       query HomePageQuery {
-        imageBg: file(relativePath: { eq: "stock/bg_1.jpeg" }) {
+        imageBg: file(relativePath: { eq: "stock/shutterstock_511304818.jpg" }) {
           ...fluidImage
         }
         placeImage1: file(relativePath: { eq: "stock/bg_1.jpeg" }) {
@@ -72,7 +72,7 @@ const IndexPage = (props: any) => (
         <Helmet>
           <title>Welcome to JaxDUG</title>
         </Helmet>
-        <BackgroundImage className="__" Tag="section" fluid={data.placeImage2.childImageSharp.fluid}>
+        <BackgroundImage className="__" Tag="section" fluid={data.imageBg.childImageSharp.fluid}>
           <BgOverlay>
             <section className="jumbotron bg-transparent m-0 text-white">
               <div className="container text-center">
