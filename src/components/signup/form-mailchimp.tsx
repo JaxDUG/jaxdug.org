@@ -60,7 +60,7 @@ export default class FormMailchimp extends React.Component<FormProps, FormState>
           return
         }
 
-        const url = 'https://brantwills.us20.list-manage.com/subscribe/post?u=668094526c96b3027e1c6a4f4&amp;id=acc4b7eb50'
+        const url = 'https://jacksonvilledevelopers.us20.list-manage.com/subscribe/post?u=430483ae8b85d96d4857cbbbb&amp;id=12d6838f0d'
         window.location.assign(`${url}&FNAME=${data.fn}&LNAME=${data.ln}&EMAIL=${data.email}`)
       }
     } catch (e) {
